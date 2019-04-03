@@ -9,5 +9,15 @@
 		<h1>Hello World!</h1>
 		<p id="dp"></p>
 		<input type="button" onclick="deviceInfo()" value="Let me introduce myself!">
+		<input type="button" onclick="showDiv()" value="Personal data">
+	
+	<div id="dane"  style="display:none;" class="answer_list" > Ewa Bąk 192207</div>
+
+	<script>
+	function showDiv() {
+	document.getElementById('dane').style.display = "block";
+	}
+	</script>
+
 	</body>
 </html>
